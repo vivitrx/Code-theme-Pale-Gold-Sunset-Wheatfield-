@@ -1,6 +1,16 @@
 {
 	"name": "Pale Gold Sunset Wheatfield",
 	"colors": {
+		"tree.selectionBorder": "#D6D6D6",
+		"tree.focusBorder": "#D6D6D6",
+		"list.activeSelectionBorder": "#D6D6D6",
+		"list.focusBorder": "#D6D6D6",
+		"list.focusBackground": "#ac9d57",
+		"list.focusForeground": "#ffffff",
+		"list.activeSelectionBackground": "#ac9d57",
+		"list.activeSelectionForeground": "#ffffff",
+		"list.hoverBackground": "#d8d2c4",
+		"list.hoverForeground": "#333333",
 		"editor.background": "#fcf6e5",
 		"editor.foreground": "#333333",
 		"list.activeSelectionIconForeground": "#fff",
@@ -16,8 +26,12 @@
 		"statusBar.background": "#ede8d7",
 		"statusBar.foreground": "#333333",
 		"statusBar.border": "#d0cbbb",
-		"statusBarItem.activeBackground": "#e2ddcf",
+		"statusBarItem.remoteBackground": "#ac9d57",
+		"statusBarItem.remoteForeground": "#ffffff",
+		"statusBarItem.activeBackground": "#ac9d57",
+		"statusBarItem.activeForeground": "#ffffff",
 		"statusBarItem.hoverBackground": "#e0dac9",
+		"statusBarItem.focusBorder": "#D6D6D6",
 		"sideBar.background": "#ede8d7",
 		"sideBar.foreground": "#333333",
 		"sideBarSectionHeader.background": "#e0dac9",
@@ -89,7 +103,9 @@
 		"editorBracketPairGuide.activeBackground5": "#fb50ff",
 		"editorBracketPairGuide.activeBackground6": "#fb50ff",
 		"editor.lineHighlightBackground": "#e4faca",
-		"editor.lineHighlightBorder": "#D6D6D6"
+		"editor.lineHighlightBorder": "#D6D6D6",
+		"editor.selectionHighlightBorder": "#D6D6D6",
+		"minimap.selectionOccurrenceHighlight": "#ac9d57"
 	},
 	"tokenColors": [
 		{
