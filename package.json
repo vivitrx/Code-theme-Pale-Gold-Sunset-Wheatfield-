@@ -1,0 +1,21 @@
+{
+  "name": "pale-gold-sunset-wheatfield",
+  "displayName": "Pale Gold Sunset Wheatfield",
+  "description": "Warm pale gold theme inspired by sunset wheatfield on cliff",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.110.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pale Gold Sunset Wheatfield",
+        "uiTheme": "vs",
+        "path": "./themes/Pale Gold Sunset Wheatfield-color-theme.json"
+      }
+    ]
+  }
+}
