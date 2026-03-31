@@ -115,7 +115,6 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#408040"
 			}
 		},
@@ -384,9 +383,13 @@
 		},
 		{
 			"name": "Markup: Emphasis",
-			"scope": "markup.italic",
+			"scope": [
+				"markup.italic",
+				"punctuation.definition.italic"
+			],
 			"settings": {
-				"fontStyle": "italic"
+				"fontStyle": "italic",
+				"foreground": "#448C27"
 			}
 		},
 		{
@@ -405,8 +408,15 @@
 		},
 		{
 			"name": "Markup: Link",
-			"scope": "meta.link",
+			"scope": [
+				"meta.link",
+				"markup.underline.link",
+				"string.other.link",
+				"string.other.link.title",
+				"string.other.link.description"
+			],
 			"settings": {
+				"fontStyle": "underline",
 				"foreground": "#4B83CD"
 			}
 		},
@@ -429,16 +439,25 @@
 		},
 		{
 			"name": "Markup: Heading",
-			"scope": "markup.heading",
+			"scope": [
+				"markup.heading",
+				"punctuation.definition.heading",
+				"entity.name.section"
+			],
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#AA3731"
 			}
 		},
 		{
 			"name": "Markup: Strong",
-			"scope": "markup.bold",
+			"scope": [
+				"markup.bold",
+				"punctuation.definition.bold"
+			],
 			"settings": {
-				"fontStyle": "bold"
+				"fontStyle": "bold",
+				"foreground": "#448C27"
 			}
 		},
 		{
@@ -457,33 +476,34 @@
 		},
 		{
 			"name": "Markup Quote",
-			"scope": "markup.quote",
+			"scope": [
+				"markup.quote",
+				"punctuation.definition.blockquote"
+			],
 			"settings": {
+				"fontStyle": "italic",
 				"foreground": "#7A3E9D"
 			}
 		},
 		{
 			"name": "Markup Lists",
-			"scope": "markup.list",
+			"scope": [
+				"markup.list",
+				"punctuation.definition.list"
+			],
 			"settings": {
 				"foreground": "#4B83CD"
 			}
 		},
 		{
-			"name": "Markup Styling",
+			"name": "Markup Inline",
 			"scope": [
-				"markup.bold",
-				"markup.italic"
+				"markup.inline.raw",
+				"markup.fenced_code",
+				"punctuation.definition.raw",
+				"punctuation.definition fenced_code"
 			],
 			"settings": {
-				"foreground": "#448C27"
-			}
-		},
-		{
-			"name": "Markup Inline",
-			"scope": "markup.inline.raw",
-			"settings": {
-				"fontStyle": "",
 				"foreground": "#AB6526"
 			}
 		},
